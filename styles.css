@@ -8,8 +8,8 @@ body {
     background-repeat: no-repeat;
     background-size: 101%;
     position: absolute;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 5rem;
+    margin-top: 2rem;
 	}
 a:link {
 	color: black;
@@ -25,19 +25,53 @@ a:hover {
 	}
 .top{
 	position: fixed;
+	margin-bottom:2rem;
 	}
 .inner{
-	margin-top: 100px;
+	margin-top: 5rem;
 	}
 .name {
 	font-family: 'Orbitron', sans-serif;
-	font-size: 20px;
-	left: 1140px;
-	top: 45px;
+	font-size: 2rem;
+	left: 114rem;
+	top: 4.5rem;
 	position: fixed;
 	}
 	
+/* Mobile Styles */
+@media only screen and (max-width: 50rem) {
 
+.page {
+    margin: 0 auto;
+  }
+  
+body {
+  background: #555555;
+  font-size: 1rem;
+  color: white;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  
+	}
+.top{
+	position: relative;
+	margin-bottom: -2rem;
+	}
+a:link {
+	color: white;
+  	text-decoration: none;
+	}
+a:visited {
+	color: white;
+  	text-decoration: none;
+	}
+a:hover {
+	font-weight: 500;
+	color: red;
+	}
+
+
+}
 
 
 
