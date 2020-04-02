@@ -1,0 +1,61 @@
+
+@font-face {
+  	font-family: "minotaur";
+  	src: url("minotaur-light-TRIAL.otf") format("opentype");
+	}
+html {
+  font-size: 120%;
+  font-family: "minotaur";
+  }
+h2{
+  margin-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #d99709;
+  }
+#variation-exp {
+  margin-left: 40rem;
+  margin-right: 3rem;
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+  }
+#variation-one {
+  margin-left: 40rem;
+  margin-right: 3rem;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  }
+#variation-two {
+  margin-left: 40rem;
+  margin-right: 3rem;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  }
+#variation-three {
+  margin-left: 40rem;
+  margin-right: 3rem;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  }
+
+.input-wrapper {
+  display: flex;
+  margin: 2.2rem 4rem 3rem 39.8rem;
+  }
+
+input {
+  width: 100%;
+  }
+
+.sentence {
+  height: 3.5rem;
+  }
+
+
+  ::-moz-selection {
+    color: #e3b70e;
+    background: #fff4c9;
+  }
+  ::selection {
+    color: #e3b70e;
+    background: #fff4c9;
