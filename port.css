@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "MAD_fill";
+    src: url("mad-sans-fill-bold-trial.otf") format("opentype");
+}
+@font-face {
+    font-family: "MAD";
+    src: url("mad-sans-bold-trial.otf") format("opentype");
+}
+@font-face {
+  	font-family: "mad-sans";
+  	src: url("mad-sans-fill-regular-trial.otf") format("opentype");
+}
+@font-face {
+  	font-family: "vulf";
+  	src: url("VulfMonoDemo-LightItalic.otf") format("opentype");
+}
+body {
+  font-family: "mad-sans";
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: #8b9719;
+  margin: 0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+#n0:hover{
+  font-family: "MAD";
+}
+a.bk:link {
+    color: inherit;
+    font-family: "MAD";
+  }
+a.bk:visited{
+    font-family: "MAD";
+    color: inherit;
+  }
+a.bk:hover {
+    font-family: "MAD";
+    color: #ec740d;
+  }
+img:hover{
+  filter: saturate(100%)!important;
+  transition: all 400ms ease-in-out;
+}
+
+a:link {
+    transition: all 150ms ease-in-out;
+    color: inherit;
+    font-family: "MAD_fill";
+    text-decoration: none;
+  }
+a:visited {
+    color: inherit;
+    transition: all 150ms ease-in-out;
+    font-family: "MAD_fill";
+    text-decoration: none;
+
+  }
+a:hover {
+    font-family: "MAD";
+    color: #ec740d;
+    transition: all 150ms ease-in-out;
+  }
+
+
+
+#left {
+  position: fixed;
+  background-color: #e2e998;
+  width: 40%;
+  height: 100%;
+  overflow: auto;
+}
+
+#right {
+  position: fixed;
+  background-color: white;
+  width: 61%;
+  height: 100%;
+  right: 0;
+  overflow: auto;
+}
+
+/*left side*/
+#open{
+    margin-left: 3rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    font-size: 3rem;
+    z-index: 1;
+    line-height: 2.5rem;
+    font-family: "mad-sans";
+}
+
+.type{
+  color:#383838;
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-right: 5rem;
+  line-height: 1.8rem;
+}
+.res{
+    color: black;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    margin-top: 8.5rem;
+    z-index: 1;
+    line-height: 1.5rem;
+}
+#enter2{
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+#cv{
+  color:#383838;
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+.caption{
+  text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.caption1{
+  text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+}
+.caption2{
+  text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.caption3{
+  text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.caption4{
+  text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+/*right side*/
+.w1{
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  }
+
+#n0{
+  font-family: "MAD_fill";
+  font-size: 3rem;
+  right: 4rem; /* adding 'right' alone made the page responsive*/
+  margin-top: 3rem;
+  position: fixed;
+  z-index: 1;
+}
+#n00{
+  font-family: "MAD";
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-top: 3.5rem;
+  position: fixed;
+  z-index: 1;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#urn{
+  width: 87%;
+  margin-top: 8rem;
+  filter: saturate(0);
+}
+#urn1{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#env{
+  width:80%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  filter: saturate(0);
+}
+#cloud{
+  width: 85%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  filter: saturate(0);
+}
+#m{
+  width: 80%;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  filter: saturate(0);
+}
+#jack{
+  width: 75%;
+  margin-top: 0rem;
+  filter: saturate(0);
+}
+#sugar{
+  width: 42rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  filter: saturate(0);
+}
+
+
+
+
+
+
+
+
+
+
+.w1{
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  }
+#i1{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i2{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i3{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i4{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i5{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i6{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i7{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i8{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i9{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+#i10{
+  width: 43rem;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #ec740d;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 2rem;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ec740d transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+::-moz-selection {
+  color: #ec740d;
+  background: none;
+}
+::selection {
+  color: #ec740d;
+  background: none;
