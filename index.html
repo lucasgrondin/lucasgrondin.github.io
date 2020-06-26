@@ -1,1 +1,98 @@
-Hello World
+<!doctype html>
+<html>
+    <head>
+          <meta charset='UTF-8'>
+          <meta name='viewport' content='width=device-width initial-scale=1'>
+
+          <link rel="stylesheet" type="text/css" href="port.css">
+          <link rel="icon" href="angel.png" type="image/png" sizes="16x16">
+          <title> Work Websites Seem Bleak</title>
+    </head>
+
+<body id="body">
+    <div id="left">
+
+      <p id="open">
+        lucasgrondin.com
+      <br><br>
+        <span style="font-size: 2rem; "> suprisingly belongs to <br>Lucas Grondin.</span>
+      </p>
+
+      <p class="type">
+        I’m a French/American student  who likes to dress up as a designer who imagines himself an artist. I’m from South Carolina but I’m lucky to be living in New York. I study capital G capital D graphic design at Parsons but I’m interested in making a connection between digital design and hand making. Lots of the education that I've been priveleged to gain has taught me about ways I don't want to approach design.
+        <br><br>
+        If you’ve got questions, hate my website, or want to talk please <a href="mailto:gronl378@newschool.edu">email me</a>. If you want to look into my personal life to see if I fit with your brand, you can address <a href="https://www.instagram.com/lucagrondjn/" target="_blank">instagram</a> or <a href="https://www.are.na/lucas-grondin"target="_blank">are.na</a>.
+        <br><br>
+        This website was built by <a href="facepic.png" target="_blank">Lucas Grondin</a> using code that you can find and use at your own risk on <a href="https://www.instagram.com/lucagrondjn/" target="_blank">github</a>.
+        <br><br>
+        <a href="resume.html">Click here to be redirected to a page about things I've done conveniently organized in a list with dates. </a>
+      </p>
+
+      <!--<p id="enter2"><span style="color: #383838;"><a href="resume.html">Resume</a> </span></p>-->
+
+    </div>
+
+
+    <div id="right">
+      <p id="n0" onclick="changeColor(); changeFontColor();"><span style="color: #383838;"> 0 : -) </span></p>
+
+
+
+      <a href="1.html"><img id="urn" src="urn_chem.gif"></a>
+      <p class="caption"><a href="1.html" class="cap"> 2020 / The Safe Handling of Contaminated Artifacts</a></p>
+
+      <a href="3.html"><img id="env" src="web_envelope.gif"></a>
+      <p class="caption1"><a href="3.html" class="cap"> 2020 / You probably don’t want to talk about oral with your mom anyways.</a></p>
+
+      <a href="4.html"><img id="cloud" src="clo.png"></a>
+      <p class="caption2"><a href="4.html" class="cap"> 2020 / The clouds, The cloud. Intimate Redaction</a></p>
+
+      <a href="zine.html"><img id="m" src="zinelg.gif"></a>
+      <p class="caption3"><a href="zine.html" class="cap"> 2019 - 2020 / Small Collections & Zines </a></p>
+
+      <img id="jack" src="jack_main1.png">
+
+    <div class="popup" onclick="myFunction()">
+        <p class="caption4"><span class="cap"> 2019 / NOT/GAY Magazine</span></p>
+        <span class="popuptext" id="myPopup">Still under construction, sorry!</span>
+    </div>
+
+    <!--  <a href="photos.html"><img id="sugar" src="sugar.jpg"></a>
+      <p class="caption3"><a href="photos.html" class="cap"> 2018 - 2020 / Amateur Photography Deserves a Home</a></p>
+    -->
+
+    </div>
+
+<script>
+var colors = ["#e2e998", "#e9b998", "#ecb9e1" ];
+ var colorIndex = 0;
+ function changeColor() {
+     var col = document.getElementById("left");
+     if( colorIndex >= colors.length ) {
+         colorIndex = 0;
+     }
+     col.style.backgroundColor = colors[colorIndex];
+     colorIndex++;
+ }
+/* first is background, second is font */
+ var colors = ["#f0c8de", "#c54c8b", "#f3d9d1", "#c47951", "#d1e9f3", "#5d9dca", "#e2e998", "#8b9719", ];
+  var colorIndex = 0;
+  function changeFontColor() {
+      var col = document.getElementById("open");
+      if( colorIndex >= colors.length ) {
+          colorIndex = 0;
+      }
+      col.style.color = colors[colorIndex];
+      colorIndex++;
+  }
+
+  // When the user clicks on div, open the popup
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+</script>
+
+
+</body>
+</html>
